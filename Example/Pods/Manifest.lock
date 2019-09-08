@@ -1,16 +1,23 @@
 PODS:
-  - ENHTextField (0.1.0)
+  - ENHTextField (0.1.0):
+    - SnapKit
+  - SnapKit (5.0.0)
 
 DEPENDENCIES:
   - ENHTextField (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
 
 EXTERNAL SOURCES:
   ENHTextField:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ENHTextField: 0aa8ab01fef2d68e01f7c112cf3dd34b5c15926a
+  ENHTextField: 83d2b7e1e18d48ddfcf38e2b228f7199e078a87d
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
 
-PODFILE CHECKSUM: a28fb76b591c912ca94a98dfe8dd904559cf9cd4
+PODFILE CHECKSUM: dcc2d8fc7ab3f2fc0f150e96132206896c65c3a5
 
 COCOAPODS: 1.7.3

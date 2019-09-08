@@ -1,7 +1,10 @@
+platform :ios, '10.0'
+
 use_frameworks!
 
 target 'ENHTextField_Example' do
   pod 'ENHTextField', :path => '../'
+  # pod 'SnapKit', '~> 5.0.0'
 
   target 'ENHTextField_Tests' do
     inherit! :search_paths
