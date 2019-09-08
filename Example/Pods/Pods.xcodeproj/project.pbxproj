@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44194BB8F4A577CA3588F7627B992DE4 /* ENHTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E90B5E88D1C90E24565902BE8203932E /* ENHTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D232ECE7C8FD6D9E6B424F7C4549825 /* Pods-ENHTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F192ACE97635CDAB9B5AD2BF22B9F4 /* Pods-ENHTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5470C8D6CA01F37A448EC7D148CEF51C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		676E0FE52AEBBCD90364703EB2E7D62B /* Pods-ENHTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9E38821938C42A2A9DAEB12A0B04DC /* Pods-ENHTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		715BA2FD108AAC362B0A5F29D93269B6 /* Pods-ENHTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6152C4316DEB3727AC01A8157B347E /* Pods-ENHTextField_Tests-dummy.m */; };
+		A5BEA329EB04FEA3B0C9C6F5590B3494 /* ENHTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 883B502EA7E396FFD6E5A4C09D1C71BB /* ENHTextField-dummy.m */; };
+		B3AC1160149D763E732761BA7CC49C32 /* Pods-ENHTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC870EF03C0555E6F507B9515426B9F /* Pods-ENHTextField_Example-dummy.m */; };
+		B7ED2F923970281AE7C42A0E9F599C36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C6C36A33D599C3B60E24BF97A003B815 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AA0FE716EFC7678302CC3D41EC1084 /* ReplaceMe.swift */; };
+		D4D3D52C0EC65D6801FA3BFF08D399E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FDE75F10CD262E09399160206EB520F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1E75B536F6B183D8F31FAE957C1525;
+			remoteInfo = "Pods-ENHTextField_Example";
+		};
+		8B29C7CB6AD53A039D17BB21F6EA3B5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D0CB3E546FE9C1FF8B619C05457E15;
+			remoteInfo = ENHTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0027A00E367B2A9B2474C763D6878929 /* ENHTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ENHTextField-Info.plist"; sourceTree = "<group>"; };
+		17AA0FE716EFC7678302CC3D41EC1084 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ENHTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1A5C9E843A19A0B511EE51F32F9F9036 /* Pods-ENHTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ENHTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CEC0003344996BEA57E0D5E8E69EAB8 /* Pods-ENHTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ENHTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		2335E494C521EF884BC8BDB33FDF13E6 /* Pods-ENHTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ENHTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		26B1F2B3857005489B3240E7ABE8CDB2 /* Pods_ENHTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ENHTextField_Tests.framework; path = "Pods-ENHTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3205310374583E2C5EBF57F48492EF5F /* Pods-ENHTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ENHTextField_Example.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33B9C5C9DCFA9015FC3B43C575688BFB /* Pods-ENHTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENHTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B0C845EE843851D7328E114C4C8704B /* Pods-ENHTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ENHTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		409746EA5EDCF95CB72FB9806ADEFE14 /* ENHTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ENHTextField.xcconfig; sourceTree = "<group>"; };
+		4D53F7D67264E1762895FFCB106E0003 /* Pods-ENHTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ENHTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		57BA6C7861F73970B3A54765A37A9298 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5C78D5F74BAE66CF97C08C1DFDA8E868 /* Pods-ENHTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENHTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5F6152C4316DEB3727AC01A8157B347E /* Pods-ENHTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ENHTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		60DF5BE0C13647548BB8EF307CC10388 /* Pods-ENHTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENHTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		64CDBF1B7EAA42C02A0A0854283F994D /* ENHTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ENHTextField.modulemap; sourceTree = "<group>"; };
+		85F192ACE97635CDAB9B5AD2BF22B9F4 /* Pods-ENHTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ENHTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8650C8FC5E017FEA360DCF67D9C1A913 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		883B502EA7E396FFD6E5A4C09D1C71BB /* ENHTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ENHTextField-dummy.m"; sourceTree = "<group>"; };
+		8BC870EF03C0555E6F507B9515426B9F /* Pods-ENHTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ENHTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		953F1F3AD8C91669CFC7200B1FA596B1 /* Pods-ENHTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ENHTextField_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEC34A1732C87F3301B310DDDACD314 /* Pods-ENHTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ENHTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A117D42EDBA4E885744FB88905F460FA /* Pods-ENHTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ENHTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A490E0C1838DAD4C7C61201603042A37 /* ENHTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ENHTextField.framework; path = ENHTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E636688802AC8B693699E613F4EFE6 /* Pods_ENHTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ENHTextField_Example.framework; path = "Pods-ENHTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB98FDB498D6CABAC79AB37C5859C596 /* ENHTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ENHTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB300453F7821C0821C41C585CA53F63 /* Pods-ENHTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ENHTextField_Tests-Info.plist"; sourceTree = "<group>"; };
+		CB781CCD5C0B22BA60E87BEF0935FE2D /* ENHTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ENHTextField-prefix.pch"; sourceTree = "<group>"; };
+		E90B5E88D1C90E24565902BE8203932E /* ENHTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ENHTextField-umbrella.h"; sourceTree = "<group>"; };
+		FA9E38821938C42A2A9DAEB12A0B04DC /* Pods-ENHTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ENHTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D6397936207F56802F265E0CD2E334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D3D52C0EC65D6801FA3BFF08D399E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EEEA30B6D78F52673A4C0E3E4CC2B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7ED2F923970281AE7C42A0E9F599C36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F503B9BF0ADCD08392E398CCE25FCD71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5470C8D6CA01F37A448EC7D148CEF51C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		156BB10AF3E35686B358CF868D9806E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64CDBF1B7EAA42C02A0A0854283F994D /* ENHTextField.modulemap */,
+				409746EA5EDCF95CB72FB9806ADEFE14 /* ENHTextField.xcconfig */,
+				883B502EA7E396FFD6E5A4C09D1C71BB /* ENHTextField-dummy.m */,
+				0027A00E367B2A9B2474C763D6878929 /* ENHTextField-Info.plist */,
+				CB781CCD5C0B22BA60E87BEF0935FE2D /* ENHTextField-prefix.pch */,
+				E90B5E88D1C90E24565902BE8203932E /* ENHTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ENHTextField";
+			sourceTree = "<group>";
+		};
+		5AFE6BF1E6A10C432E14D38E78847552 /* ENHTextField */ = {
+			isa = PBXGroup;
+			children = (
+				17AA0FE716EFC7678302CC3D41EC1084 /* ReplaceMe.swift */,
+				A59D606F28F56C5529D192428A1D6B0B /* Pod */,
+				156BB10AF3E35686B358CF868D9806E0 /* Support Files */,
+			);
+			name = ENHTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		745A5CA81D10EF7267AF2BB93E1B7AB2 /* Pods-ENHTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1CEC0003344996BEA57E0D5E8E69EAB8 /* Pods-ENHTextField_Tests.modulemap */,
+				1A5C9E843A19A0B511EE51F32F9F9036 /* Pods-ENHTextField_Tests-acknowledgements.markdown */,
+				9DEC34A1732C87F3301B310DDDACD314 /* Pods-ENHTextField_Tests-acknowledgements.plist */,
+				5F6152C4316DEB3727AC01A8157B347E /* Pods-ENHTextField_Tests-dummy.m */,
+				BB300453F7821C0821C41C585CA53F63 /* Pods-ENHTextField_Tests-Info.plist */,
+				85F192ACE97635CDAB9B5AD2BF22B9F4 /* Pods-ENHTextField_Tests-umbrella.h */,
+				33B9C5C9DCFA9015FC3B43C575688BFB /* Pods-ENHTextField_Tests.debug.xcconfig */,
+				60DF5BE0C13647548BB8EF307CC10388 /* Pods-ENHTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-ENHTextField_Tests";
+			path = "Target Support Files/Pods-ENHTextField_Tests";
+			sourceTree = "<group>";
+		};
+		78401ECCD576A64D39FAA5CCB332705E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A490E0C1838DAD4C7C61201603042A37 /* ENHTextField.framework */,
+				A7E636688802AC8B693699E613F4EFE6 /* Pods_ENHTextField_Example.framework */,
+				26B1F2B3857005489B3240E7ABE8CDB2 /* Pods_ENHTextField_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51410A20FA9A01D94CC62F09E1C956C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4608156E7D7B15AFBA36720539B3C08 /* Pods-ENHTextField_Example */,
+				745A5CA81D10EF7267AF2BB93E1B7AB2 /* Pods-ENHTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A59D606F28F56C5529D192428A1D6B0B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AB98FDB498D6CABAC79AB37C5859C596 /* ENHTextField.podspec */,
+				57BA6C7861F73970B3A54765A37A9298 /* LICENSE */,
+				8650C8FC5E017FEA360DCF67D9C1A913 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4608156E7D7B15AFBA36720539B3C08 /* Pods-ENHTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3205310374583E2C5EBF57F48492EF5F /* Pods-ENHTextField_Example.modulemap */,
+				3B0C845EE843851D7328E114C4C8704B /* Pods-ENHTextField_Example-acknowledgements.markdown */,
+				4D53F7D67264E1762895FFCB106E0003 /* Pods-ENHTextField_Example-acknowledgements.plist */,
+				8BC870EF03C0555E6F507B9515426B9F /* Pods-ENHTextField_Example-dummy.m */,
+				2335E494C521EF884BC8BDB33FDF13E6 /* Pods-ENHTextField_Example-frameworks.sh */,
+				953F1F3AD8C91669CFC7200B1FA596B1 /* Pods-ENHTextField_Example-Info.plist */,
+				FA9E38821938C42A2A9DAEB12A0B04DC /* Pods-ENHTextField_Example-umbrella.h */,
+				5C78D5F74BAE66CF97C08C1DFDA8E868 /* Pods-ENHTextField_Example.debug.xcconfig */,
+				A117D42EDBA4E885744FB88905F460FA /* Pods-ENHTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-ENHTextField_Example";
+			path = "Target Support Files/Pods-ENHTextField_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FE4FCB4F8C66F91465165F83E608CB82 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				78401ECCD576A64D39FAA5CCB332705E /* Products */,
+				A51410A20FA9A01D94CC62F09E1C956C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE4FCB4F8C66F91465165F83E608CB82 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AFE6BF1E6A10C432E14D38E78847552 /* ENHTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		096FF003C6AA1912BD1835EA3D19111A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D232ECE7C8FD6D9E6B424F7C4549825 /* Pods-ENHTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB9E16BA51B2D3F09362D7C6238FE96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44194BB8F4A577CA3588F7627B992DE4 /* ENHTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9694CC5394D160C5C14A7AEB461C6A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676E0FE52AEBBCD90364703EB2E7D62B /* Pods-ENHTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39D0CB3E546FE9C1FF8B619C05457E15 /* ENHTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63C3C78E992F34B2A47115CFD8A8C12 /* Build configuration list for PBXNativeTarget "ENHTextField" */;
+			buildPhases = (
+				9BB9E16BA51B2D3F09362D7C6238FE96 /* Headers */,
+				C8B73DEF9406AC397DDC073C839182E9 /* Sources */,
+				F503B9BF0ADCD08392E398CCE25FCD71 /* Frameworks */,
+				D0542D5B7EEAF9C4CF3EB254E94F8DAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ENHTextField;
+			productName = ENHTextField;
+			productReference = A490E0C1838DAD4C7C61201603042A37 /* ENHTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A8F857A6D5288C9297015CAC437FBA1 /* Pods-ENHTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8486D18D813402BE6F4C40FA4305C1 /* Build configuration list for PBXNativeTarget "Pods-ENHTextField_Tests" */;
+			buildPhases = (
+				096FF003C6AA1912BD1835EA3D19111A /* Headers */,
+				32C24A6284FD3F748D578346A3B3233E /* Sources */,
+				D0EEEA30B6D78F52673A4C0E3E4CC2B4 /* Frameworks */,
+				44432F890914A0CB2AE1379F780B41F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B1781840C68F2FB3F30D308F900D1A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ENHTextField_Tests";
+			productName = "Pods-ENHTextField_Tests";
+			productReference = 26B1F2B3857005489B3240E7ABE8CDB2 /* Pods_ENHTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F1E75B536F6B183D8F31FAE957C1525 /* Pods-ENHTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5341D86A9A24517EA73A11CACBBD57B /* Build configuration list for PBXNativeTarget "Pods-ENHTextField_Example" */;
+			buildPhases = (
+				F9694CC5394D160C5C14A7AEB461C6A6 /* Headers */,
+				43A313D9F2760EE2098BDCA7BD2C460E /* Sources */,
+				B1D6397936207F56802F265E0CD2E334 /* Frameworks */,
+				4C344156D011EEDCD00E9A0C27802904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EB254FF7192B3710F657DD6B13C2E7A /* PBXTargetDependency */,
+			);
+			name = "Pods-ENHTextField_Example";
+			productName = "Pods-ENHTextField_Example";
+			productReference = A7E636688802AC8B693699E613F4EFE6 /* Pods_ENHTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 78401ECCD576A64D39FAA5CCB332705E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D0CB3E546FE9C1FF8B619C05457E15 /* ENHTextField */,
+				7F1E75B536F6B183D8F31FAE957C1525 /* Pods-ENHTextField_Example */,
+				6A8F857A6D5288C9297015CAC437FBA1 /* Pods-ENHTextField_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44432F890914A0CB2AE1379F780B41F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C344156D011EEDCD00E9A0C27802904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0542D5B7EEAF9C4CF3EB254E94F8DAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C24A6284FD3F748D578346A3B3233E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715BA2FD108AAC362B0A5F29D93269B6 /* Pods-ENHTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A313D9F2760EE2098BDCA7BD2C460E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AC1160149D763E732761BA7CC49C32 /* Pods-ENHTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8B73DEF9406AC397DDC073C839182E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BEA329EB04FEA3B0C9C6F5590B3494 /* ENHTextField-dummy.m in Sources */,
+				C6C36A33D599C3B60E24BF97A003B815 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B1781840C68F2FB3F30D308F900D1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ENHTextField_Example";
+			target = 7F1E75B536F6B183D8F31FAE957C1525 /* Pods-ENHTextField_Example */;
+			targetProxy = 7FDE75F10CD262E09399160206EB520F /* PBXContainerItemProxy */;
+		};
+		4EB254FF7192B3710F657DD6B13C2E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ENHTextField;
+			target = 39D0CB3E546FE9C1FF8B619C05457E15 /* ENHTextField */;
+			targetProxy = 8B29C7CB6AD53A039D17BB21F6EA3B5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		098F7ABD910F038E75C7901220B32230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A117D42EDBA4E885744FB88905F460FA /* Pods-ENHTextField_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ENHTextField_Example/Pods-ENHTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENHTextField_Example/Pods-ENHTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11746AF6F4740F9C3B727333789F7695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C78D5F74BAE66CF97C08C1DFDA8E868 /* Pods-ENHTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ENHTextField_Example/Pods-ENHTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENHTextField_Example/Pods-ENHTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91251BE714EAAADCAC544DAE93C5610D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409746EA5EDCF95CB72FB9806ADEFE14 /* ENHTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ENHTextField/ENHTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ENHTextField/ENHTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ENHTextField/ENHTextField.modulemap";
+				PRODUCT_MODULE_NAME = ENHTextField;
+				PRODUCT_NAME = ENHTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93AD8737E43BC5873910B1EE69685F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DF5BE0C13647548BB8EF307CC10388 /* Pods-ENHTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ENHTextField_Tests/Pods-ENHTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENHTextField_Tests/Pods-ENHTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BE0D5C3FC4A6DA27B5FA597111FFFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409746EA5EDCF95CB72FB9806ADEFE14 /* ENHTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ENHTextField/ENHTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ENHTextField/ENHTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ENHTextField/ENHTextField.modulemap";
+				PRODUCT_MODULE_NAME = ENHTextField;
+				PRODUCT_NAME = ENHTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF7697AA68F9E3F2835BABB04426F2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B9C5C9DCFA9015FC3B43C575688BFB /* Pods-ENHTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ENHTextField_Tests/Pods-ENHTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ENHTextField_Tests/Pods-ENHTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8486D18D813402BE6F4C40FA4305C1 /* Build configuration list for PBXNativeTarget "Pods-ENHTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7697AA68F9E3F2835BABB04426F2A0 /* Debug */,
+				93AD8737E43BC5873910B1EE69685F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63C3C78E992F34B2A47115CFD8A8C12 /* Build configuration list for PBXNativeTarget "ENHTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91251BE714EAAADCAC544DAE93C5610D /* Debug */,
+				9BE0D5C3FC4A6DA27B5FA597111FFFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5341D86A9A24517EA73A11CACBBD57B /* Build configuration list for PBXNativeTarget "Pods-ENHTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11746AF6F4740F9C3B727333789F7695 /* Debug */,
+				098F7ABD910F038E75C7901220B32230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

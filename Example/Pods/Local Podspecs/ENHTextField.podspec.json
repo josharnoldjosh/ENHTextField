@@ -1,0 +1,22 @@
+{
+  "name": "ENHTextField",
+  "version": "0.1.0",
+  "summary": "A short description of ENHTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/josharnoldjosh/ENHTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "josharnoldjosh": "josharnold997@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/josharnoldjosh/ENHTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ENHTextField/Classes/**/*"
+}

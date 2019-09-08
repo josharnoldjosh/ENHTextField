@@ -1,0 +1,16 @@
+PODS:
+  - ENHTextField (0.1.0)
+
+DEPENDENCIES:
+  - ENHTextField (from `../`)
+
+EXTERNAL SOURCES:
+  ENHTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ENHTextField: 0aa8ab01fef2d68e01f7c112cf3dd34b5c15926a
+
+PODFILE CHECKSUM: a28fb76b591c912ca94a98dfe8dd904559cf9cd4
+
+COCOAPODS: 1.7.3

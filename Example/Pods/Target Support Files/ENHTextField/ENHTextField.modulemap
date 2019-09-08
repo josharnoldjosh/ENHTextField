@@ -1,0 +1,6 @@
+framework module ENHTextField {
+  umbrella header "ENHTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}
