@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ENHTextField_Example' do
+  pod 'ENHTextField', :path => '../'
+
+  target 'ENHTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
